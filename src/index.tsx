@@ -1,0 +1,1 @@
+export { SmartQrScannerView } from './SmartQrScannerView';
