@@ -9,8 +9,8 @@ export interface SmartQrScannerViewProps extends ViewProps {
   onCodeScanned?: DirectEventHandler<CodeScannedEvent>;
 }
 
-import SmartQrScannerViewNativeComponent from './SmartQrScannerViewNativeComponent';
+import RTNSmartQrScannerViewNativeComponent from './RTNSmartQrScannerViewNativeComponent';
 
 export function SmartQrScannerView(props: SmartQrScannerViewProps) {
-  return <SmartQrScannerViewNativeComponent {...props} />;
+  return <RTNSmartQrScannerViewNativeComponent {...props} />;
 }

@@ -106,17 +106,10 @@
   },
   "codegenConfig": {
     "name": "SmartQrScannerViewSpec",
-    "type": "all",
+    "type": "components",
     "jsSrcsDir": "src",
     "android": {
       "javaPackageName": "com.smartqrscanner"
-    },
-    "ios": {
-      "components": {
-        "SmartQrScannerView": {
-          "className": "SmartQrScannerView"
-        }
-      }
     }
   },
   "prettier": {
